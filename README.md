@@ -159,21 +159,6 @@ Capturile demonstrează:
 - conexiunea SSH VM1 către VM2;
 - conexiunea SSH VM2 către VM1.
 
-Structura pentru capturi:
-
-```text
-screenshots:
-1)vm1_hostname.png
-2)vm2_hostname.png
-3)vm1_ssh_status.png
-4)vm2_ssh_status.png
-5)host_to_vm1.png
-6)host_to_vm2.png
-7)vm1_to_vm2.png
-8)vm2_to_vm1.png
-```
-
----
 
 ## Concluzie
 
