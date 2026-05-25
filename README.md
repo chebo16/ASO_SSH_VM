@@ -159,25 +159,23 @@ Capturile demonstrează:
 - conexiunea SSH VM1 către VM2;
 - conexiunea SSH VM2 către VM1.
 
-Structura recomandată pentru capturi:
+Structura pentru capturi:
 
 ```text
-screenshots/
-├── vm1_hostname.png
-├── vm2_hostname.png
-├── vm1_ssh_status.png
-├── vm2_ssh_status.png
-├── host_to_vm1.png
-├── host_to_vm2.png
-├── vm1_to_vm2.png
-└── vm2_to_vm1.png
+screenshots:
+1)vm1_hostname.png
+2)vm2_hostname.png
+3)vm1_ssh_status.png
+4)vm2_ssh_status.png
+5)host_to_vm1.png
+6)host_to_vm2.png
+7)vm1_to_vm2.png
+8)vm2_to_vm1.png
 ```
 
 ---
 
 ## Concluzie
-
-Tema a fost realizată cu succes.
 
 Am configurat două mașini virtuale Ubuntu în Oracle VirtualBox și am folosit protocolul SSH pentru comunicarea dintre ele și Host OS. Fiecare mașină virtuală a fost configurată cu **NAT** pentru acces la internet și **Host-only Adapter** pentru comunicarea locală.
 
